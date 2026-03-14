@@ -33,3 +33,30 @@ When two pegs of the same player are placed in a **knight-move distance (like in
 ---
 
 ## Project Structure
+├── main.c # Handles game loop, player input, and turn management
+├── functions.c # Contains core game logic (links, intersections, win detection)
+├── functions.h # Structure definitions, constants, and function declarations
+└── README.md # Project documentation
+
+---
+
+## How to Compile
+
+Use GCC to compile the program:
+gcc main.c functions.c -o twixt
+## How to Run
+./twixt
+
+---
+
+## How to Play
+
+1. Run the program.
+2. The board will be displayed in the terminal.
+3. Enter the **row and column** where you want to place your peg.
+
+Example:
+Enter row col: 4 5
+To exit the game:
+-1 -1
+---
