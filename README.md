@@ -57,6 +57,7 @@ gcc main.c functions.c -o twixt
 
 Example:
 Enter row col: 4 5
+---
 To exit the game:
 -1 -1
 ---
